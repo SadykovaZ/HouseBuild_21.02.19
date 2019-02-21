@@ -22,7 +22,7 @@ namespace HouseBuild.Model
         
         public void startBuilding()
         {
-            foreach (var item in parts)
+            foreach (IPart ipart in parts)
             {
 
             }
