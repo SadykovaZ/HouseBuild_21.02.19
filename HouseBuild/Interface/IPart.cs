@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace HouseBuild.Interface
 {
-    interface IPart
+    public interface IPart
     {
         string name { get; set; }
         double price { get; set; }
         int count { get; set; }
-
+        int order { get; set; }
         ITask task { get; set; }
         string getInfo();
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace HouseBuild.Interface
 {
     public enum Position { manager, worker}
-    interface IWorker
+    public interface IWorker
     {
         Guid id { get;  }
         string fullName { get; set; }
